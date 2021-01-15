@@ -1,6 +1,22 @@
 # Hard_Drive_Reliability
-Drive hard failures can be costly, but are mostly avoidable. This study will examine the details.
+The use of hard drives has been growing exponentially. They are used on computers to store data.
+Drive hard failures can be costly and painful, especially as more voluminous, typically valuable data is stored on them.
+The causes of hard drive failures are listed below:
+Mishaps
+	Water Damage
+	Human Error
+	Unforeseen Mishaps
+	Extreme Energy (Thermal/Magnetic)
+Possibly preventable
+	Virus or Faulty Software
+	Un-allocated Space Issue
+	Hardware Issues
+	Mechanical Flaws
+	Power Issues
+	Firmware Corruption 
 
+A good number of the hard drive failure causes are avoidable. This study will examine the details.
+About 20 years ago, a Google paper reported that up to 40% of units which failed, did not have any associated SMART flags.
 
 SMART
 S.M.A.R.T. (often written as SMART) is a monitoring system included in computer hard disk drives (HDDs), solid-state drives (SSDs),[1] and eMMC drives. Its primary function is to detect and report various indicators of drive reliability with the intent of anticipating imminent hardware failures.
