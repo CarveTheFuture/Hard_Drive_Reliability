@@ -62,6 +62,7 @@ On the other hand, random forests, another ensemble of decision tree classifiers
 uses a fixed level for the gini impurity threshold. 
 Both algorithms expose random subsets of the data to each of the sub-estimators.
 [Tree classification ensemble methods]
+
 <img src="https://i.stack.imgur.com/Q18mk.png" width="300"/>
 https://stats.stackexchange.com/questions/175523/difference-between-random-forest-and-extremely-randomized-trees
 
