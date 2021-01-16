@@ -25,7 +25,9 @@ One might be asking - 'What is that?'
 According to Wikipedia, S.M.A.R.T. (often written as SMART) is a monitoring system included in computer hard disk drives - to detect, and report various indicators of drive reliability with the intent of anticipating imminent hardware failures, so that software running on the host system may alert the user, to prevent data loss. 
 Thus the failing drive could be replaced -with the ultimate goal of data integrity being maintained.
 
-![test](http://samplesite.com/somesample.jpg)
+![hard drive failure]
+(http://samplesite.com/somesample.jpg)
+
 <img src="https://macdatarecoverysolutions.files.wordpress.com/2015/05/harddrivefailure_prime-100028965-large.jpg" width="300"/>
 
 The Data Source. 
