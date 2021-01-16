@@ -42,9 +42,12 @@ The remaining useful days was calculated for each observation by subtracting the
 <img src="https://images.wondershare.com/recoverit/article/2019/06/common-causes-of-hard-drive-failure.jpg" width="300"/>
 
 This was then used as a target while the monitored attributes were used as features. 
+/images/4 Distribution of operational hours.png
+
 The accuracy of this model was low.
 I then tried a different approach. This time, the observed lifespans for the units were grouped into 12 sets. These group labels were fed into a tree classification model as targets, again with monitored features as inputs. A tree classification algorithm seeks to branch through decisions,
 as a means of categorizing its outputs. 
+
 The end-points for a series of decision branches are called nodes, 
 and should ideally match a category of outputs. 
 In this case, an ensemble of such trees was employed in order to enhance accuracy. 
@@ -53,9 +56,9 @@ The extra-trees ensemble randomly chooses the thresholds for determining gini im
 On the other hand, random forests, another ensemble of decision tree classifiers, 
 uses a fixed level for the gini impurity threshold. 
 Both algorithms expose random subsets of the data to each of the sub-estimators.
-![Causes of hard drive failure]
+[Tree classification ensemble methods]
 <img src="https://i.stack.imgur.com/Q18mk.png" width="300"/>
-
+https://stats.stackexchange.com/questions/175523/difference-between-random-forest-and-extremely-randomized-trees
 
 This time, with the extra-trees algorithm, the average accuracy (0.81) was much higher. Furthermore, the top feature, when weighted by importance, was the Load Cycle Count. Some other features in descending order, were:
 2. Total Logical block addresses Written to,
