@@ -42,8 +42,9 @@ The remaining useful days was calculated for each observation by subtracting the
 <img src="https://images.wondershare.com/recoverit/article/2019/06/common-causes-of-hard-drive-failure.jpg" width="300"/>
 
 This was then used as a target while the monitored attributes were used as features. 
+
 <a href="https://github.com/CarveTheFuture/TrendsInEnergyDevelopmentAndHealth">
-         <img alt="Operational hours for selected data set" src="/images/4 Distribution of operational hours.png"
+         <img alt="Operational hours for selected data set" src="images/4 Distribution of operational hours.png"
          width=600" height="280">
       </a>
 
