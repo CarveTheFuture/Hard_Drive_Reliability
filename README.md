@@ -38,7 +38,7 @@ In order to determine how to predict lifespans with SMART health monitoring attr
 at first a regression analysis was performed. 
 The remaining useful days was calculated for each observation by subtracting the observation date from the failure date. 
 
-![test](http://samplesite.com/somesample.jpg)
+![Causes of hard drive failure]
 <img src="https://images.wondershare.com/recoverit/article/2019/06/common-causes-of-hard-drive-failure.jpg" width="300"/>
 
 This was then used as a target while the monitored attributes were used as features. 
@@ -53,6 +53,8 @@ The extra-trees ensemble randomly chooses the thresholds for determining gini im
 On the other hand, random forests, another ensemble of decision tree classifiers, 
 uses a fixed level for the gini impurity threshold. 
 Both algorithms expose random subsets of the data to each of the sub-estimators.
+![Causes of hard drive failure]
+<img src="https://i.stack.imgur.com/Q18mk.png" width="300"/>
 
 
 This time, with the extra-trees algorithm, the average accuracy (0.81) was much higher. Furthermore, the top feature, when weighted by importance, was the Load Cycle Count. Some other features in descending order, were:
